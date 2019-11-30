@@ -1,0 +1,15 @@
+{
+    "name": "avitoapp.turrbor",
+    "description": "Simple webapp for avito.ru",
+    "architecture": "all",
+    "title": "Avito",
+    "hooks": {
+        "avitoapp": {
+            "apparmor": "avitoapp.apparmor",
+            "desktop":  "avitoapp.desktop"
+        }
+    },
+    "version": "1.0.1",
+    "maintainer": "Al Pakh <turrbor@gmail.com>",
+    "framework" : "ubuntu-sdk-16.04"
+}
